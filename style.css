@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap');
+body{
+    font-family: 'Playfair Display', serif;
+}
+.container{
+    max-width: 80%;
+    margin: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .css-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+} */
+header{
+    grid-column: 1/-1;
+    /* background-color: #f6eded; */
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+.header-bg-content{
+    max-width: 464px;
+    background-color: #fff;
+    padding: 40px;
+    position: absolute;
+    right: 15%;
+    bottom: 20%;
+}
+.header-bg{
+    background: url(image/background.png);
+    background-repeat: no-repeat;
+    background-color: #3C7D36;;
+    height: 515px;
+    width: auto;
+    position: relative;
+}
+
+
+footer{
+    grid-column: 1/-1;
+}
+
+/* .css-grid{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+} */
+
+.main-grid{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    
+    
+}
+.main-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    grid-row-gap: 50px;
+    
+}
+.food-content{
+    max-width: 340px;
+    background: rgba(52, 114, 47, 0.15);
+    padding: 30px;
+
+
+}
+
+
+.recent-post{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.recent{
+    display: flex;
+    align-items: center;
+   
+}
+.recent-content{
+    max-width: 250px;
+    margin: 0 10px;
+}
+.recent-post a{
+    display: inline-block;
+}
+
+.recent-post h3{
+    margin: 10px 0;
+}
+.food-content p{
+    color: #666666;
+
+
+}
+
+.recent-post h1{
+   font-size: 30px;
+   margin :0;
+}
+
+.recent-post a{
+    color: #666666;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline-start: 0;
+}
+.footer-content ul li a{
+    color: white;
+    display: inline-flex;
+}
+
+.footer-content{
+    max-width: 300px;
+}
+
+.footer-content p{
+    color: white;
+}
+
+.footer-content h2{
+    color:white;
+}
+
+.footer-content h3{
+    color: white;
+}
+
+footer{
+    margin-top: 80px;
+    padding: 40px;
+    background:#3C7D36; ;
+}
+
+.copyright{
+    background: #000;
+    padding: 5px;
+}
+
+.copyright p{
+    color: white;
+    text-align: center;
+}
